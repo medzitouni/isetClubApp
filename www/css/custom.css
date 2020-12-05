@@ -1,0 +1,105 @@
+.ui-page {
+    background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: #D4D6DB;
+    
+  }
+
+[data-role=header]{
+    background-color: #E3D7D7;
+    opacity: 0.5;
+    color: #0F0E0E;
+}
+[data-role=footer]{
+    background-color: #E3D7D7;
+    opacity: 0.5;
+    color: #0F0E0E;
+}   
+h2 {
+    color: #F6F6F6;
+    font-size: 30px;
+}
+.btn-login{
+    background-color: #1FA4C2;
+    color: #D3E8ED;
+    border-radius: 5em;
+    text-decoration: none;
+    margin: 2em 0 2em 0;
+}
+/*Global*/
+
+.tcolor {
+    color: #1BD2EF;
+}
+
+/* /Global */
+/* Homepage  */
+.container {
+    display: grid;
+  grid-template-columns: auto auto auto;
+  }
+.rounded{
+    border-radius: 50%;
+}
+.club-item{
+    padding: 5px;
+}
+.club-item img {
+    height: 80px;
+    width: 80px;
+}
+.club-item span{
+    display: block;
+    color:#1BD2EF;
+    text-align: center;
+}
+
+/* /Homepage  */
+
+
+/* Clubpage  */
+
+.cp-head img{
+    height: 100px;
+    width: 100px;
+}
+.cp-head .fwus{
+    display: block;
+    background-color:  #1BD2EF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    float:right;
+    border-radius: 7px;
+}
+.clear{
+    clear: both;
+}
+.cp-head span {
+    margin: auto;
+}
+.even-item{
+    margin: 4px;
+}
+.even-item img{
+    border-radius: 1em;
+    height: 90px;
+    width: 90px;
+}
+/* /Clubpage  */
+
+/* Eventpage  */
+.event-head img{
+    height: 120px;
+    width: 120px;
+    border-radius: 0.5em;
+    
+}
+.event-img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 0.5em;
+}
+/* /Eventpage  */
