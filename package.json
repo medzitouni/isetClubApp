@@ -25,5 +25,8 @@
       "browser",
       "android"
     ]
+  },
+  "dependencies": {
+    "cordova-jquery": "^0.1.6"
   }
 }
