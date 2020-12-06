@@ -12,11 +12,18 @@
     opacity: 0.5;
     color: #0F0E0E;
 }
+
 [data-role=footer]{
     background-color: #E3D7D7;
     opacity: 0.5;
     color: #0F0E0E;
 }   
+[data-role=footer] a  {
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
 h2 {
     color: #F6F6F6;
     font-size: 30px;
