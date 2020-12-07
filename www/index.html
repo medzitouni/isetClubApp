@@ -9,7 +9,7 @@
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
-       
+        <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/custom.css">
         <script src="js/jquery.js"></script>
         <script src="js/jquery.mobile-1.4.5.js"></script>
@@ -38,7 +38,9 @@
                 <div data-role="page" id="home">
                 
                     <div data-role="header" data-position="fixed">
+                        <a href="#" class="ui-btn-right"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
                         <h1>Clubs</h1>
+                        
                     </div><!-- /header -->
                 
                     <div role="main" class="ui-content">
@@ -81,7 +83,14 @@
                     </div><!-- /content -->
                 
                     <div data-role="footer" data-position="fixed">
-                        <h4>Page Footer</h4>
+                        <div data-role="navbar">
+                            <ul>
+                                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        
                     </div><!-- /footer -->
                 </div>
                 <!-- /Home -->
@@ -90,6 +99,8 @@
                 <div data-role="page" id="Clubpage">
                 
                     <div data-role="header" data-position="fixed">
+                        <a href="#" class="ui-btn-left"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </a>
                         <h1>Clubs</h1>
                     </div><!-- /header -->
                 
@@ -131,7 +142,12 @@
                     </div><!-- /content -->
                 
                     <div data-role="footer" data-position="fixed">
-                        <h4>Page Footer</h4>
+                        <div data-role="navbar">
+                            <ul>
+                                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
                     </div><!-- /footer -->
                 </div>
                 <!-- /Club page -->
@@ -140,6 +156,8 @@
                 <div data-role="page" id="Eventpage">
                 
                     <div data-role="header" data-position="fixed">
+                        <a href="#" class="ui-btn-left"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </a>
                         <h1>Clubs</h1>
                     </div><!-- /header -->
                 
@@ -163,7 +181,13 @@
                     </div><!-- /content -->
                 
                     <div data-role="footer" data-position="fixed">
-                        <h4>Page Footer</h4>
+                        <div data-role="navbar">
+                            <ul>
+                                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-commenting" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
                     </div><!-- /footer -->
                 
                 </div>
