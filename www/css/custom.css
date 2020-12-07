@@ -1,9 +1,17 @@
+*{
+    border-width: 0px;
+    border: none;
+}
+
 .ui-page {
     background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  color: #D4D6DB;
+  color: #0f0e0e02;
+  border: none;
+  border-width: 0px;
+
     
   }
 
@@ -12,18 +20,11 @@
     opacity: 0.5;
     color: #0F0E0E;
 }
-
 [data-role=footer]{
     background-color: #E3D7D7;
     opacity: 0.5;
     color: #0F0E0E;
 }   
-[data-role=footer] a  {
-    padding: 1em;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
 h2 {
     color: #F6F6F6;
     font-size: 30px;
@@ -110,3 +111,280 @@ h2 {
     border-radius: 0.5em;
 }
 /* /Eventpage  */
+
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-hover {
+    width: 200px;
+    font-size: 41px;
+    font-weight: 680;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 55px;
+    padding: 12px;
+    margin-left: 12px;
+    
+    height: 85px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    font-family: Arial Rounded MT;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-bottom: 40px;
+    
+}
+.btn-contact{
+    width: 50%;
+    font-size: 25px;
+    font-weight: 380;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    margin-top: 55px;
+    padding: 2px;
+    margin-left: 12px;
+    size: 40px;
+    height: 65px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    font-family: Arial Rounded MT;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-bottom: 40px;
+    
+}
+#Login_to_your_Account {
+	opacity: 0.94;
+	mix-blend-mode: screen;
+	left: 67px;
+	top: 57px;
+	position: relative;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial Rounded MT;
+	
+	font-weight: bold;
+	font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+}
+.form{
+    margin: 10px 35px;
+    margin-top: 200px;
+    border: none;
+    border-width: 0px;
+
+  }
+ 
+  #ps{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-family: Arial Rounded MT;
+      margin-top:12px ;
+      margin-left: 149px;
+      
+  }
+  #su{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Arial Rounded MT;
+    margin-top:372px ;
+    margin-left: 270px;
+    margin-bottom: -50px;
+    top: 400px;
+}
+#si{
+    text-decoration: none;
+    color: #ffffff98;
+    font-size: 27px;
+    font-family: Arial Rounded MT;
+   
+   margin-left: 80px;
+    margin-bottom: -150px;
+    font-style:Arial Rounded MT;
+    font-weight: bold;
+}
+  a:hover{
+    color: rgba(255, 255, 255, 0.863);
+    
+    
+  }
+  input {border:0;outline:0;}
+input:focus {outline:none!important;}
+.inp{
+    border: none;
+    border:  hidden;
+    border-width: 0px;
+}
+  input.form_s{
+    
+    text-decoration: none;
+    position: relative;
+    width: 95%;
+    display: block;
+    margin: 9px auto;
+    
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 39px;
+    
+    background: rgba(3, 3, 3, 0.404);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 38px;
+    font-family: Arial Rounded MT;
+  }
+.sigform{
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+input.form_ui{
+    
+    text-decoration: none;
+    position: relative;
+    width: 105%;
+    display: block;
+    margin: 9px auto;
+    
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 39px;
+    
+    background: rgba(3, 3, 3, 0.404);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 47px;
+    font-family: Arial Rounded MT;
+  }
+  input.form_c{
+    
+    text-decoration: none;
+    position: relative;
+    width: 95%;
+    display: block;
+    margin: 9px auto;
+    
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 39px;
+    
+    background: rgba(3, 3, 3, 0.404);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 38px;
+    font-family: Arial Rounded MT;
+  }
+  input.form_cb{
+    
+    text-decoration: none;
+    position: relative;
+    width: 95%;
+    height: 270px;
+    display: block;
+    margin: 9px auto;
+    
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 39px;
+    
+    background: rgba(3, 3, 3, 0.404);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 31px;
+    font-family: Arial Rounded MT;
+  }
+  #Contact {
+	opacity: 0.94;
+	mix-blend-mode: screen;
+	left: 87px;
+	top: 57px;
+	position: relative;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial Rounded MT;
+	
+	font-weight: bold;
+	font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    margin-bottom: 95px;
+}
+input.msg_cb{
+    
+    text-decoration: none;
+    position: relative;
+    width: 95%;
+    height: 320px;
+    display: block;
+    margin: 9px auto;
+    margin-top: 80px;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 39px;
+    
+    background: rgba(241, 240, 240, 0.199);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 31px;
+    font-family: Arial Rounded MT;
+  }
+  #masg {
+	opacity: 0.94;
+	mix-blend-mode: screen;
+	left: 117px;
+	top: 57px;
+	position: relative;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Arial Rounded MT;
+	
+	font-weight: bold;
+	font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+}
