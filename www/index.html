@@ -86,7 +86,7 @@
                         <div data-role="navbar">
                             <ul>
                                 <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                                <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
@@ -200,13 +200,13 @@
                         <div id="Login_to_your_Account">
                             <span>Login to your <br/>    Account</span>
                         </div>
-                       <div class="form">
+                       <div class="login-form">
                             <form method="post" action="" data-ajax="false">
                                 
-                                <input class="form_ui" type="email" id="email" name="email" placeholder="Email"/>
-                                <input class="form_ui" type="password" id="password" name="pwd" placeholder="Password"/>
+                                <input class="c-input" data-wrapper-class="true" type="email" id="email" name="email" placeholder="Email"/>
+                                <input class="c-input" type="password" id="password" name="pwd" placeholder="Password"/>
                             
-                                <a  href="" id="ps"> forgot password </a>
+                                <a  href="" id="ps">forgot password </a>
                                 <button class="btn-hover color-7">Login</button>
                                 <a  href="#sigform" id="su"> Sign Up </a>
                             </form>
@@ -232,13 +232,13 @@
                                 <input class="form_s" type="password" id="password" name="pwd_cnf" placeholder="Confirme Password"/>
                                 
                                 <button class="btn-hover color-7">Sign Up</button>
-                                <a  href="#logform" id="si"> you already have account </a>
+                                <a  href="#logform" id="si">you already have account</a>
                             </form>
                         </div>
                     </div><!-- /content -->
                 
                     
-                </div><!-- /register_form -->
+                </div><!-- /contact -->
                 <div data-role="page" id="contact">
                 
                 
@@ -260,8 +260,33 @@
                             </form>
                         </div>
                     </div><!-- /content -->
+
+
+
+    </div><!-- /Confirmation -->
+                <div data-role="page" id="Confirmation">
+                <div data-role="header" data-position="fixed">
+                        <a href="#" class="ui-btn-left"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                        </a>
+                        <h1>Clubs</h1>
+                    </div><!-- /header -->
                 
-                    
+                    <div role="main" class="ui-content">
+                        <div id="confirmTitre">Confirmation </div>
+
+                                <p class="ConfirmMsg"> Your message has been sent successfully</p>
+
+                    </div><!-- /content -->
+
+                
+                    <div data-role="footer" data-position="fixed">
+                        <div data-role="navbar">
+                            <ul>
+                                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div><!-- /footer -->
                 </div><!-- /contact -->
                 <div data-role="page" id="message">
                 
