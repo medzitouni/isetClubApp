@@ -140,16 +140,12 @@ h2 {
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 .btn-hover {
-    width: 200px;
+    
     font-size: 41px;
-    font-weight: 680;
+    
     color: #fff;
     cursor: pointer;
-    margin-top: 55px;
     padding: 12px;
-    margin-left: 12px;
-    
-    height: 85px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
@@ -159,7 +155,6 @@ h2 {
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    margin-bottom: 40px;
     
 }
 .btn-contact{
@@ -188,56 +183,68 @@ h2 {
 }
 #Login_to_your_Account {
 	opacity: 0.94;
-	mix-blend-mode: screen;
-	left: 67px;
-	top: 57px;
-	position: relative;
-	overflow: visible;
-	width: 265px;
+	
 	white-space: nowrap;
 	text-align: left;
 	font-family: Arial Rounded MT;
 	
 	font-weight: bold;
 	font-size: 50px;
-    color: rgb(255, 255, 255);
-    margin-top: 45px;
+    color:#F6F6F6;
+    margin: 1em 0;
+    text-align: center;
 }
-.form{
-    margin: 10px 35px;
-    margin-top: 200px;
+.c-input{
+    background: #8F8F8F !important;
+    padding: 2em !important;
+    margin: 2em 0.5em !important;
+    border:solid 3px #1BD2EF !important;
+
+}
+.login-form{
+    
     border: none;
     border-width: 0px;
 
   }
+
+  .ui-input-text{
+    border-style: none;
+    opacity: 0.8;
+
+  }
+  .login-form input{
+    border-radius: 3em !important;
+  }
+  .login-form input::placeholder{
+    color: #F6F6F6;
+    font-size: 30px;
+    text-align: center;
+  }
  
   #ps{
       text-decoration: none;
-      color: rgb(255, 255, 255);
-      font-size: 30px;
+      font-size: 20px;
+      color: #F6F6F6;
       font-family: Arial Rounded MT;
-      margin-top:12px ;
-      margin-left: 149px;
+      margin:1em ;
+      float:right;
       
   }
   #su{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #F6F6F6;
     font-size: 30px;
     font-family: Arial Rounded MT;
-    margin-top:372px ;
-    margin-left: 270px;
-    margin-bottom: -50px;
-    top: 400px;
+   float: right;
 }
 #si{
     text-decoration: none;
     color: #ffffff98;
-    font-size: 27px;
+    font-size: 1.3em;
     font-family: Arial Rounded MT;
    
-   margin-left: 80px;
-    margin-bottom: -150px;
+   float: right;
     font-style:Arial Rounded MT;
     font-weight: bold;
 }
@@ -259,7 +266,7 @@ input:focus {outline:none!important;}
     position: relative;
     width: 95%;
     display: block;
-    margin: 9px auto;
+
     
     color: #fff;
     padding: 8px;
@@ -271,7 +278,7 @@ input:focus {outline:none!important;}
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    font-size: 38px;
+    font-size: 2em;
     font-family: Arial Rounded MT;
   }
 .sigform{
@@ -282,9 +289,8 @@ input.form_ui{
     
     text-decoration: none;
     position: relative;
-    width: 105%;
     display: block;
-    margin: 9px auto;
+    
     
     color: #fff;
     padding: 8px;
@@ -296,7 +302,7 @@ input.form_ui{
     -moz-transition: all 2s ease-in-out;
     -o-transition: all 2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    font-size: 47px;
+    font-size: 1em;
     font-family: Arial Rounded MT;
   }
   input.form_c{
@@ -398,4 +404,24 @@ input.msg_cb{
 	font-size: 50px;
     color: rgb(255, 255, 255);
     margin-top: 45px;
+}
+#confirmTitre{
+    color: #F6F6F6;
+    font-size: 2.5em;
+    font-family: Arial Rounded MT;
+    text-align: center;
+    margin: 3em 0;
+    font-style: bold;
+}
+.ConfirmMsg{
+    margin: 5em 0;
+    padding: 1em;
+    color: #F6F6F6;
+    border-radius: 1em;
+    border:solid 3px #1BD2EF;
+    background: #8F8F8F;
+    opacity: 0.8;
+    text-align: center;
+    font-family: Arial Rounded MT;
+    font-size: 1.8em;
 }
