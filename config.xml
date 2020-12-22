@@ -15,6 +15,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <plugin name="cordova-plugin-firebase" spec="^2.0.0" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
