@@ -39,10 +39,12 @@ $(document).on("pagecontainerbeforechange",function(ev,ui){
     }else if(ui.toPage[0].id === "logform"){
         console.log("weeeeey");
         $("#Btn_log").click(function(e) {
+            e.preventDefault();
             var passwd = $("#password_l").val();
             var emaill = $("#email_l").val();
             const Authl = auth.signInWithEmailAndPassword(emaill, passwd);
             Authl.catch(e => alert(e.message));
+            console.log("succes");
 
         });
         firebase.auth().onAuthStateChanged(firebaseUser =>{
