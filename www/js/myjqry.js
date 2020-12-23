@@ -10,8 +10,7 @@ $(document).on("pagecontainerbeforechange",function(ev,ui){
         console.log("weeeey");
         $("#Btn_sign").click(function(e) {
             e.preventDefault();
-            var userRef = firebase.database().ref();
-           
+            
             var name = $("#name").val();
             var email = $("#email").val();
             var password = $("#password").val();
@@ -28,12 +27,9 @@ $(document).on("pagecontainerbeforechange",function(ev,ui){
                 
                 alert('Register success')
                 console.log("mon Nom :"+name + " "+email+"mon mot de pass "+password);
-                userRef.push({
-                    nom: name,
-                    email_user:email,
-                    mdp: password
-                  })
-                  contactForm.reset();
+               
+                const AuthRef = auth.createUserWithEmailAndPassword(email, password);
+		        AuthRef.catch(e => alert(e.message));
 
             }
                 });
@@ -43,10 +39,38 @@ $(document).on("pagecontainerbeforechange",function(ev,ui){
     }else if(ui.toPage[0].id === "logform"){
         console.log("weeeeey");
         $("#Btn_log").click(function(e) {
-            var name = $("#name").val();
-            var email = $("#email").val();
-        });
+            var passwd = $("#password_l").val();
+            var emaill = $("#email_l").val();
+            const Authl = auth.signInWithEmailAndPassword(emaill, passwd);
+            Authl.catch(e => alert(e.message));
 
+        });
+        firebase.auth().onAuthStateChanged(firebaseUser =>{
+            if(firebaseUser){
+                console.log(firebaseUser);
+            }else{
+                console.log("you not login")
+            }
+        })
+
+    }else if(ui.toPage[0].id === "contact"){
+        console.log("weeeeey");
+        $("#Btn_contact").click(function(e) {
+            var name = $("#name_c").val();
+            var email = $("#email_c").val();
+            var message = $("#message").val();
+            var userRef = firebase.database().ref();
+               
+            userRef.push({
+                nom: name,
+                email_user:email,
+                mdp: password
+              })
+              userRef.reset();
+            });
     }
+        
+            
 });
 
+   
